@@ -1,12 +1,6 @@
-import sys
-from pathlib import Path
 import pytest
 
-# Ensure src directory is on the import path
-sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
-
-from AddressBook import AddressBook, Record
-
+from src.address_book import AddressBook, Record
 
 def test_add_phone_new_number():
     record = Record("Alice")

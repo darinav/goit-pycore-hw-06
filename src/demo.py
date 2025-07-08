@@ -1,4 +1,4 @@
-from AddressBook import AddressBook, Record
+from address_book import AddressBook, Record
 
 
 def main():
